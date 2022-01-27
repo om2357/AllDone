@@ -12,14 +12,14 @@ int index(int arr[],int size,int x)
     }
     int something =index(arr+1,size-1,x);
     return something;
-    // if(something=-1)
-    // {
-    //     return -1;
-    // }
-    // else 
-    // {
-    //     return something +1;
-    // }
+    if(something=-1)
+    {
+        return -1;
+    }
+    else 
+    {
+        return something +1;
+    }
 
 }
 int main()
