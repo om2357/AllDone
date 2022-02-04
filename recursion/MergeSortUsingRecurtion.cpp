@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+//pata nhi ave samajh nhi aa rha h demag kharab baad me fir deakhe h esko.. dhanyabaaad
 void mergesort(int *arr, int s, int e)
 {
     int mid = (s+e)/2;
