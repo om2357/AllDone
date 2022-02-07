@@ -31,5 +31,9 @@ int main()
     s3->rollno = 121;
     s3->display();
 
+    student s4(10);
+    cout<<"s4 Object is created : "<<endl<<s4.rollno<<endl;
+    cout<<s4.age;
+    
     return 0;
 }
