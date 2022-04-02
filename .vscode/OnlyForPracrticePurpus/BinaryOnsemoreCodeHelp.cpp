@@ -2,7 +2,6 @@
 using namespace std;
 int binary(int arr[], int key, int size)
 {
-
     int start = 0;
     int end = size - 1;
     int mid = start + (end - start) / 2;

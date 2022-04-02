@@ -2,7 +2,7 @@
 using namespace std;
 void print(int arr[], int n)
 {
-    cout << "Size of array "<< n;
+    cout <<"Size of array "<< n;
 
     for (int i = 0; i < n; i++)
     {
@@ -27,7 +27,6 @@ bool LinearSearch(int arr[], int size, int key)
         return remaningPart;
     }
 }
-
 int main()
 {
     int arr[20];
@@ -54,6 +53,5 @@ int main()
     {
         cout << "your key is not Present";
     }
-
     return 0;
 }

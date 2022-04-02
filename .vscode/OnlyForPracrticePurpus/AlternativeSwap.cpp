@@ -2,21 +2,21 @@
 using namespace std;
 void alternatSwap(int arr[], int size)
 {
-    for (int i = 0; i < size; i += 2)//i=i+2 or i=i+2
-    { 
-        if (i + 1 <size)
+    for (int i = 0; i < size; i += 2) // i=i+2
+    {
+        if (i + 1 < size)
         {
-            swap(arr[i], arr[i + 1]);
+            swap(arr[i],arr[i + 1]);
         }
     }
 }
-void printArray(int arr[],int size)
+void printArray(int arr[], int size)
 {
-    for (int i = 0; i<size ;i++)
+    for (int i = 0; i < size; i++)
     {
-        cout<<arr[i]<<" ";
+        cout << arr[i]<< " ";
     }
-    cout<<endl;
+    cout << endl;
 }
 int main()
 {
@@ -30,8 +30,7 @@ int main()
     {
         cin >> arr[i];
     }
-
     alternatSwap(arr, size);
-    printArray(arr,size);
+    printArray(arr, size);
     return 0;
 }

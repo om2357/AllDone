@@ -47,6 +47,15 @@ public:
         denominator = LCM;
         simplefy();
     }
+
+    void multiplicaton(Fraction const &f2)
+    {
+        numerator = numerator * f2.numerator;
+        denominator = denominator * f2.denominator;
+
+        simplefy();
+
+    }
 };
 int main()
 {
@@ -57,6 +66,12 @@ int main()
     
     f1.print();
     f2.print();
+
+    f1.multiplicaton(f2);
+    f1.print();
+    f2.print();
+
+
 
 
     return 0;

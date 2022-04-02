@@ -45,7 +45,6 @@ class student
         cout<<"Destructer called ! ";
     }
 
-
     //how to make object
 
 };
