@@ -5,8 +5,7 @@ typedef struct employe              // we can also use typedef (befote struct em
 {
     int eid;
     char FavChar;
-    long int salary;
-                               
+    long int salary;                 
 } ep;                         // and then in last line befor semicolum we write ep
 
 
@@ -21,7 +20,7 @@ typedef struct employe              // we can also use typedef (befote struct em
 int main()
 {
     ep vijay;
-    struct employe om;               //    without using struct employe (we can only wright -->ep om )
+    struct employe om;               // without using struct employe (we can only wright -->ep om )
     
     om.eid = 1;
     om.FavChar = 'o';

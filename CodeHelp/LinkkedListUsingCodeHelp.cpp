@@ -35,7 +35,7 @@ int main()
     Node *n2 = new Node(20);
     n1 -> next = n2;  
     cout<<head->data<<endl;
-    cout<<n1->data<<endl;
+    cout<<n2->data<<endl;
      
 
     return 0;
