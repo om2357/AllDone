@@ -39,3 +39,13 @@ int main()
 
     return 0;
 }
+
+
+//echo "enter a number"
+// read a 
+// echo "enter your secon number"
+// read b
+
+// c=$(expr $a + $b)
+// echo $c
+// done
