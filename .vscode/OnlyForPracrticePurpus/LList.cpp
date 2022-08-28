@@ -15,6 +15,7 @@ class node
 int main()
 {
     node * node1 = new node(19);
+    
 
     return 0;
 }
