@@ -6,7 +6,7 @@ class student
     int age;
     int rollNumber;
     
-    private: 
+    private:  
     int classs = 12;
     int marks = 483;
 

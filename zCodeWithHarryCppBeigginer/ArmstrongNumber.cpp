@@ -18,14 +18,7 @@ int main()
     cout<<number<<endl;
     cout<<sum;
 
-    if (sum == num)
-    {
-        cout << "this is a armstrong number" ;
-    }
-    else
-    {
-        cout << "this is not a armstrong number";
-    }
+    
 
     return 0;
 }
