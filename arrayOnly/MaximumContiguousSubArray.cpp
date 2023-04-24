@@ -10,12 +10,13 @@ int subArray (int arr[],int n)
         for(int j=i;j<n;j++)
         {  
            //cout<<"sum value is : "<<sum;
-           sum = sum+arr[j];
+        sum = sum+arr[j];
         }
         if(sum >maxSum)
         {
             maxSum = sum;
         }
+        
     }
     return maxSum;
 }
