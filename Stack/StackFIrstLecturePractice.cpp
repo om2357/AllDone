@@ -1,4 +1,5 @@
 #include<iostream>
+#include<stack>
 using namespace std;
 class stack
 {
@@ -67,6 +68,7 @@ class stack
 
 int main()
 {
+<<<<<<< HEAD
     stack st(5);
     st.push(21);
     st.push(211);
@@ -95,6 +97,17 @@ int main()
     {
         cout<<"Stack is Not empty"<<endl;
     }
+=======
+    stack<int> st;
+    st.push(32);
+    st.push(311);
+    st.push(21);
+    cout<<st.top()<<endl;
+    st.pop();
+    cout<<"Top element is -> "<<st.top()<<endl;
+    cout<<"Size of stack is -> "<<st.size()<<endl;
+    
+>>>>>>> 34425aa748c0ba0de7d1a04bb73057c6d3c06328
 
 
 
