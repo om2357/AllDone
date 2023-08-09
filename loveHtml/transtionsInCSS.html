@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Transition</title>
+        <style>
+            .box
+            {
+                height: 500px;
+                width: 500px;
+                background-color: #54971e;
+                border: 2px solid black;
+                transition-property: all;
+                transition-duration: 2s;
+                transition-delay: 1s;
+                transition: margin-right 2s;
+                transition-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+                justify-content: center;
+                align-items: center;
+                
+            }
+            
+            
+            .box1
+            {
+                height: 200px;
+                width: 200px;
+                display: flex;
+                background-color: aqua;
+                justify-content: center;
+                align-items: center;
+                font-size: 30px;
+                /* margin: 150px;  */
+                
+            }
+            .box1:hover
+            {
+                width:1200px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- animations is serese of movement---  one postion to another postion movements-->
+
+        <!-- when we change a state to different state then we called Transtion, this is single switsh -- some states to another staate -->
+
+        <div class="box">
+
+            <div class="box1">helloo friends</div>
+
+        </div>
+
+    </body>
+</html>
