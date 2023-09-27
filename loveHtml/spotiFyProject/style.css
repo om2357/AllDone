@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+
+
+body {
+    background-color: antiquewhite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.brand img {
+    width: 45px;
+    /* border-top-left-radius: 25px; */
+    border-radius: 40px;
+    padding: 0px 8px;
+
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container {
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('wp5126584.jpg');
+
+}
+
+.bottom {
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    bottom: 0;
+    flex-direction: column;
+
+
+}
+
+.icons {
+    margin-top: 14px;
+}
+.icons i {
+    cursor: pointer;
+    margin: 5px;
+    
+}
+.play img
+{
+    width: 50px;
+}
+
+#myProgressBar {
+    width: 80vw;
+}
+.songItem
+{
+   
+    display: flex;
+    background-color: white;
+    
+    color: black;
+    margin: 12px 0px;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 30px;
+    width: 120%;
+    height: 82px;
+
+
+}
+.songItem img
+{
+    width: 50px;
+    margin: 0px 10px;
+    border-radius: 20px;
+
+}
+.timestemp
+{
+    display: flex;
+    margin: 0 23px;
+    align-items: center;
+}
+#play img
+{
+    /* display: flex;
+    align-items: center; */
+    width: 40px;
+}
+.songItemContainer{
+    margin-top: 74px; ;
+}
+.songInfo
+{
+    position: absolute;
+    left: 0px;
+}
