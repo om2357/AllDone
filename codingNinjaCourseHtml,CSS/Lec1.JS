@@ -1,1 +1,1 @@
-console.log("my first")
+console.log("my first");
