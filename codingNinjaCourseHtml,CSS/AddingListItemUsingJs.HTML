@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add list item using JS</title>
+  </head>
+  <body style="background-color: black; color: aliceblue">
+    <ul class="language">
+      <li>Java</li>
+    </ul>
+  </body>
+  <script>
+    function addLang(langName) {
+      const li = document.createElement("li");
+
+      //this is not optimized
+      li.innerHTML = `${langName}`;
+      document.querySelector(".language").appendChild(li);
+    }
+    addLang("python");
+
+    function AddOptiLang(langName) {
+      const li = document.createElement("li");
+      li.appendChild(document.createTextNode(langName));
+      document.querySelector(".language").appendChild(li);
+    }
+    AddOptiLang("goLang");
+    // edit
+
+    const secondLang = document.querySelector("li:nth-child(3)");
+    console.log(secondLang);
+    const newLi = document.createElement("li");
+    // secondLang.innerHTML = "mojo"
+    newLi.textContent = "mojo";
+    secondLang.replaceWith(newLi);
+  </script>
+</html>
+
+<!-- function addlanguage(addLang) {
+    const li =  document.createElement('li');
+
+    li.innerHTML = `${addLang}`;
+    document.querySelector('.language').appendChild(li);
+}
+addlanguage("python"); -->

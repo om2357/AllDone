@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setInterval</title>
+
+</head>
+<body>
+    <h1>Om or javaScript</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stopped</button>
+    
+
+</body>
+<script>
+   
+        // const start = document.querySelector('#start').addEventListener('click',function(){
+        // setInterval(() => {
+        //     console.log('Om kumar',Date.now())
+        // }, 2000); 
+        // })
+        // document.querySelector('#stop').addEventListener('click',function(){
+        //     console.log("Stope clicked");
+        // })
+        let itervalId;
+        const name = function(){
+            console.log('Om kumar',Date.now())
+        }
+        const start = document.querySelector('#start').addEventListener('click', ChangeName)
+
+        function ChangeName(){
+            itervalId = setInterval(name, 2000);
+        }
+
+        const stop = document.querySelector('#stop').addEventListener('click', function(){
+            console.log("STOP clicked")
+            clearInterval(itervalId);
+        })
+    
+    // repet = setInterval(start,1000 )
+
+
+    // const stop = document.querySelector('#stop').addEventListener('click', function(){
+    //     clearInterval(startt)
+    //     console.log('Clicked Stop')
+        
+    // })
+  
+</script>
+</html>
