@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body style="background-color: black">
+    <h2 style="color: white">images</h2>
+    <div>
+        <ul id="images">
+            <li>
+                <img id="song" src="songImg.jpg" alt="Nonthing" style="width: 200px" />
+            </li>
+            <li>
+                <img id="gulabJamun" src="Img/gulabJamun.jpeg" alt="gulabJamun" style="width: 200px" />
+            </li>
+            <li>
+                <img id="barfi" src="Img/sattu-barfi.jpg" alt="logo" style="width: 200px" />
+            </li>
+            <li><a href="google.com" id="google">Google</a></li>
+        </ul>
+    </div>
+</body>
+<script>
+    // document.querySelector('#gulabJamun').onclick = function(){
+    //     alert("hiii");
+    // }
+    // document.getElementById("gulabJamun").addEventListener("click", function (e) {
+    //     console.log(e);
+    // });
+
+    // document.getElementById("images").addEventListener('click', function () {
+    //     console.log("clicked Inside the ul")
+    // }, false);
+
+    // document.getElementById('gulabJamun').addEventListener('click', function (e) {
+    //     console.log("gulabJamun Clicked");
+    //     e.stopPropagation();
+
+    // }, false);
+
+    // document.getElementById('google').addEventListener('click', function(e){
+    //     console.log("Google cLicked")
+    //     e.preventDefault(); // this function can stop the opening of particular things 
+
+    //     e.stopPropagation();// this can stop the bubbling 
+    // },false)
+
+    document.getElementById('images').addEventListener('click', function (e) {
+
+
+        console.log(e.target.tagName)// using tagName we get IMG
+        if (e.target.tagName == 'IMG') {
+            console.log(e.target.parentNode);
+            let remove = (e.target.parentNode);// here we can use remove() to remove somethings 
+            remove.remove();
+
+        }
+
+        // let removeIt = e.target.parentNode;
+        // removeIt.parentNode.removeChild(removeIt) // we can also use this  
+
+
+    }, false)
+
+
+
+
+
+</script>
+
+</html>

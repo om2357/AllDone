@@ -9,9 +9,6 @@ int main()
     average = (a+b)/2;
     printf("%f", average);
     printf("your average is : %f",average);
-    
-
-
 
 
     return 0;

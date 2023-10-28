@@ -20,12 +20,10 @@ int main()
     cout << "Enter your array size\n";
     cin >> n;
     cout << "Enter your array value\n";
-
     for (int i = 0; i < n; i++)
     {
         cin >> arr[i];
     }
-
     int answer = BubbleSort(arr, n);
     for(int i= 0 ; i < n ; i++)
     {

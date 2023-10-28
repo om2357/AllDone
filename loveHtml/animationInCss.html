@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Animation</title>
+        <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container
+        {
+            width: 219vh;
+            height: 45vw;
+            background-color: rgb(65, 12, 8);
+            border: solid black 5px;
+        }
+        .box
+        {
+            width: 450px;
+            height: 80px;
+            background-color: rgb(2, 2, 2);
+            border-radius: 10px;
+            margin: 10px;
+            position: relative;
+            border: 3px solid black;
+            /* animation-name: rightMovement;
+            animation-duration: 6s;
+            animation-iteration-count:infinite;
+            animation-delay: 2s;
+            animation-timing-function: linear;  
+            animation-direction: alternate; */
+
+            /* @keyframes duration | easing-function | delay |
+            iteration-count | direction | fill-mode | play-state | name */
+            animation: 6s linear 1s infinite reverse none running rightMovement;
+        }
+        @keyframes rightMovement {
+            from{
+                top: 0;
+                left: 0;
+            }
+            to{
+                top:0;
+                left:1360px;
+            }
+            
+        }
+        .box1
+        {
+            width: 450px;
+            height: 80px;
+            background-color: chartreuse;
+            border-radius: 10px;
+            margin: 10px;
+            position: relative;
+            border: 3px solid black;
+            animation: 6s ease-in 1s infinite alternate-reverse none running rightMovement;
+        }
+        .box2
+        {
+            width: 450px;
+            height: 80px;
+            background-color: chartreuse;
+            border-radius: 10px;
+            margin: 10px;
+            position: relative;
+            border: 3px solid black;
+            animation: 6s ease-out 3s infinite reverse none running rightMovement;
+        }
+        .box3
+        {
+            width: 450px;
+            height: 80px;
+            background-color: chartreuse;
+            border-radius: 10px;
+            margin: 10px;
+            position: relative;
+            border: 3px solid black;
+            animation: 6s ease-in-out 2s infinite reverse none running rightMovement;
+        }
+        .box4
+        {
+            width: 450px;
+            height: 80px;
+            background-color: chartreuse;
+            border-radius: 10px;
+            margin: 10px;
+            position: relative;
+            border: 3px solid black;
+            animation: 6s ease-in 2s infinite alternate-reverse none running rightMovement;
+        }
+        .box5
+        {
+            width: 450px;
+            height: 80px;
+            background-color: chartreuse;
+            border-radius: 10px;
+            margin: 10px;
+            position: relative;
+            border: 3px solid black;
+            animation: 6s ease-in 2s infinite reverse none running rightMovement;
+        }
+        .box6
+        {
+            width: 450px;
+            height: 80px;
+            background-color: chartreuse;
+            border-radius: 10px;
+            margin: 10px;
+            position: relative;
+            border: 3px solid black;
+            animation: 6s ease-in-out 2s infinite reverse none running rightMovement;
+        }
+        </style>
+    </head>
+    <body>
+
+        <div class="container">
+
+            <div class="box">
+
+                <audio controls
+                    src="Raanjhana Ve_ Antara Mitra _ Soham Naik _ Uddipan _ Sonu _ Latest Hindi Love Songs _ New Song 2022(MP3_320K).mp3"></audio>
+            </div>
+
+            <div class="box1">
+
+                <audio controls
+                    src="Raanjhana Ve_ Antara Mitra _ Soham Naik _ Uddipan _ Sonu _ Latest Hindi Love Songs _ New Song 2022(MP3_320K).mp3"></audio>
+            </div>
+
+            <div class="box2">
+
+                <audio controls
+                    src="Raanjhana Ve_ Antara Mitra _ Soham Naik _ Uddipan _ Sonu _ Latest Hindi Love Songs _ New Song 2022(MP3_320K).mp3"></audio>
+            </div>
+
+            <div class="box3">
+
+                <audio controls
+                    src="Raanjhana Ve_ Antara Mitra _ Soham Naik _ Uddipan _ Sonu _ Latest Hindi Love Songs _ New Song 2022(MP3_320K).mp3"></audio>
+            </div>
+            <div class="box4">
+
+                <audio controls
+                    src="Raanjhana Ve_ Antara Mitra _ Soham Naik _ Uddipan _ Sonu _ Latest Hindi Love Songs _ New Song 2022(MP3_320K).mp3"></audio>
+            </div>
+            <div class="box5">
+
+                <audio controls
+                    src="Raanjhana Ve_ Antara Mitra _ Soham Naik _ Uddipan _ Sonu _ Latest Hindi Love Songs _ New Song 2022(MP3_320K).mp3"></audio>
+            </div>
+            <div class="box6">
+
+                <audio controls
+                    src="Raanjhana Ve_ Antara Mitra _ Soham Naik _ Uddipan _ Sonu _ Latest Hindi Love Songs _ New Song 2022(MP3_320K).mp3"></audio>
+            </div>
+        </div>
+
+    </body>
+</html>

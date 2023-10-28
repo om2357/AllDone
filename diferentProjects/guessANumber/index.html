@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <style>
+        body{
+            background: #d7c8c8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+        }
+        .bg{
+            background-color: rgb(150, 122, 177);
+            width: 700px;
+            margin-top: 40px;
+        }
+        h1{
+            background-color: rgb(53, 35, 35);
+            color: #f0f0f0;
+        }
+        p{
+            font-size: 20px;
+        }
+        #wrapper{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            /* display: block; */
+        }
+        #guess{
+            font-size: 40px;
+        }
+        #submit
+        {
+            background-color: rgb(69, 29, 29);
+            height: 40px;
+            width: 95px;
+            border-radius: 10px;
+            color: aliceblue;
+            margin-left: 69px;
+        }
+        #guessField{
+            height: 30px;
+            border-radius: 10px;
+            margin-left: 40px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="bg">
+    <div id="wrapper">
+        <h1> Number Guess Game </h1>
+        <span>Try and guess a random number between 1 and 10</span>
+        <p>You have 5 attempt to guess the right number</p>
+        
+
+        <form class="form">
+            <label for="guessField" id="guess">Guess a number</label></br></br>
+            <input type="text" id="guessField" class="guessField"></br></br>
+            <input type="submit" id="submit" value="Submitt Guess" class="guessSubmit">
+        </form>
+
+        <div class="result">
+            <p>Previous Guesses: <span class="guesses"></span></p>
+            <p>Guessess Remaining: <span class="lastResult">10</span></p>
+            <p class="lowOrHi"></p>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    const randomNumber = (parseInt(Math.random() * 10 + 1));
+    const submit = document.querySelector('#submit');
+    const userInput = document.querySelector('#guessField');
+    const gussSlot = document.querySelector('.guesses')
+    const remaning = document.querySelector('.lastResult');
+    const lowOrHi = document.querySelector('.lowOrHi')
+    const startOver = document.querySelector('.result');
+
+    const p = document.createElement('p')
+
+    
+
+
+
+
+
+
+
+    
+
+
+</script>
+</html>
