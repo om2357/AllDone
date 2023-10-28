@@ -1,0 +1,22 @@
+body {
+  background-color: blueviolet;
+  padding-top: 100px;
+}
+.foo {
+  margin-left: 300px;
+}
+.heading {
+  width: 273x;
+  margin-left: 380px;
+  align-items: center;
+}
+.text {
+  margin-left: 370px;
+}
+#results {
+  font-style: italic;
+  color: azure;
+}
+#but {
+  margin-left: 150px;
+}
