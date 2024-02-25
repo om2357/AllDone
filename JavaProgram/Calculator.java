@@ -16,7 +16,6 @@ class Hi{
 public class Calculator {
     public static void main(String[] args) {
         Demo obj = new Demo();
-        System.out.println(obj.add(10, 21));
-        System.out.println(Hi.addd(10 , 10));
+        System.out.println(obj.add(10, 21));        System.out.println(Hi.addd(10 , 10));
     }
 }
