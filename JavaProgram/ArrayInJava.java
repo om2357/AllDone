@@ -19,8 +19,7 @@ public class ArrayInJava{
         
         System.out.println(roll2[2]); 
 
-        String[] arr = {"hello","hiii"};
-        System.out.println(arr[1]);
+    
 
         try (Scanner sc = new Scanner(System.in)) {
             int hello = sc.nextInt();

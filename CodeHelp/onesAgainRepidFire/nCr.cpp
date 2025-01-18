@@ -27,5 +27,5 @@ int main()
 
     // int ans = fact(num);
     // cout<<"factorial of num -> "<<ans;
-    cout<<nCr(8 ,2);
+    cout<<nCr(13 ,6);
 }
