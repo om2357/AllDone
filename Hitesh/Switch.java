@@ -1,4 +1,3 @@
-package AllDone.Hitesh;
 
 import java.util.Scanner;
 
@@ -20,6 +19,7 @@ public class Switch {
             switch (x)
             {
                 case 1 : result = "I";
+                System.out.println("Your Result is : " + result);
                     break;
 
                 case 2 : result = "II";

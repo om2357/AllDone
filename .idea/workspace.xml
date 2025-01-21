@@ -1,7 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13c0cb04-ff89-428b-876b-d379ffe15f0e" name="Changes" comment="re added this some fill Because it will create another java Branch master" />
+    <list default="true" id="13c0cb04-ff89-428b-876b-d379ffe15f0e" name="Changes" comment="re added this some fill Because it will create another java Branch master">
+      <change afterPath="$PROJECT_DIR$/JavaProgram/ByTelusko/test_Intelij.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hitesh/Switch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hitesh/Switch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hitesh/Switch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/Addition_of_Arraya.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/AllDone/JavaProgram/ByTelusko/Start1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/AnotherProgram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/Array.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/ArrayInJava.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/ArrayInJava.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/ClassToClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/Complex2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/Composition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/Composition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/Consept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/DeliveryBoy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/Different.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/Fact.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/Factorial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/FibonacciExample1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/FirSeRev.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/GlobalVariable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/Helloo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/Helloo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/IBM_uncle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/Indeed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/Input.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/LinearSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/M.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/Market.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/Replace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/ReverseNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/Reverseee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/RevisionCalss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/RevisionCalss.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/Sample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/Sir.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/String.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/String.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/StrongNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/StrongNumberFirSe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/Sum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/SumOfDigt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/SumOfNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/Unique.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/UniqueElementInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/countElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/countMoreThenOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/fib.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/findTheCountOfDuplicateInArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/firstJavaProgram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/functionInJava.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/gooo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/insta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/interface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/javaInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/kuchKuch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/new.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/newtonSchool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/objectOrientedProgramming.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/oops.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/oops.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/pagalPanti.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/reverseA_Number.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/revision.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/revision.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/secondClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/strong.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/strongNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/sumOfDigit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProgram/usingNew.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,9 +99,24 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;om2357&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/om2357/AllDone.git&quot;,
+    &quot;accountId&quot;: &quot;d9d5efba-d78d-4ebb-9ea7-7d060c2a94f1&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2LwIvn616B3gLGfyujG7Pp3I8MM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,15 +124,70 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Start1.executor": "Run",
+    "Application.fatchTheDigit.executor": "Run",
+    "Application.test_Intelij.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/program1/AllDone/JavaProgram"
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/program1/AllDone/JavaProgram",
+    "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.test_Intelij">
+    <configuration name="Start1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ByTelusko.Start1" />
+      <module name="AllDone" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ByTelusko.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fatchTheDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AllDone.JavaProgram.fatchTheDigit" />
+      <module name="AllDone" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AllDone.JavaProgram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_Intelij" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ByTelusko.test_Intelij" />
+      <module name="AllDone" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ByTelusko.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test_Intelij" />
+        <item itemvalue="Application.Start1" />
+        <item itemvalue="Application.fatchTheDigit" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
