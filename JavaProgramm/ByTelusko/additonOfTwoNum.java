@@ -16,5 +16,7 @@ public class additonOfTwoNum {
             System.out.println(add);
         }
         System.out.println("Your addtion is - "+ add);
+        // write this again in a better way
+        
     }
 }
